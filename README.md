@@ -1,18 +1,9 @@
-MissionPlanner
+MissionPlanner - SOWIT FORK
 ==============
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ArduPilot/MissionPlanner?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build status](https://ci.appveyor.com/api/projects/status/2c5tbxr2wvcguihp?svg=true)](https://ci.appveyor.com/project/meee1/missionplanner)
+This code is forked from the ardupilot/missionplanner repositery, to be modified for sowit needs.
 
-Website : http://ardupilot.org/planner/  
-  
-Forum : http://discuss.ardupilot.org/c/ground-control-software/mission-planner
-  
-Download latest stable version : http://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-latest.msi
-  
-Changelog : https://github.com/ArduPilot/MissionPlanner/blob/master/ChangeLog.txt  
-  
-License : https://github.com/ArduPilot/MissionPlanner/blob/master/COPYING.txt  
-
+To SOWIT team, please update the files on the drive as you pull modifications, thank you.
 
 How to compile
 ==============
@@ -42,17 +33,3 @@ How to compile
 
 - Open MissionPlanner.sln with Visual Studio 2017 for windows desktop.
 - Compile.
-
-
------------MONO-------------
-
-run using 
-mono MissionPlanner.exe
-
-run debuging
-MONO_LOG_LEVEL=debug mono MissionPlanner.exe
-
-you need prereq's
-sudo apt-get install mono-runtime libmono-system-windows-forms4.0-cil libmono-system-core4.0-cil libmono-winforms2.0-cil libmono-corlib2.0-cil libmono-system-management4.0-cil libmono-system-xml-linq4.0-cil
-
-
